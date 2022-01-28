@@ -48,8 +48,22 @@ After scraping posts from the two subreddits: `TheOnion` and `NotTheOnion`, we w
 ### Methodology
 
 - **[0. Data Scraping from Reddit](#0)**
+
+   To get the necessary posts for this project, I scrapped at least 5000 posts before 1 Jan 2022 from each subreddit.
+  
 - **[1. Import Scraped Data & Libraries](#1)**
 - **[2. Data Cleaning & EDA](#2)**
+    
+    The following was done during data cleaning,
+      - Removed Links
+      - Removed non-Alphabetical/Numberical and Single Character Words
+      - Lemmatization and Tokenization
+      - Dropped Duplicates
+
+    Word Cloud after data cleaning:
+
+  <img src="images/wordcloud.jpeg" width="400"/>
+    
 - **[3. Tokenization & Top Words](#3)**
 - **[4. Train Test Split](#4)**
 - **[5. Building & Fitting Models](#5)**
@@ -82,6 +96,8 @@ After scraping posts from the two subreddits: `TheOnion` and `NotTheOnion`, we w
 
   To interpret model coefficients, we have chosen Count Vectorizer and Logistic Regression Model. We were able to interpret model coefficients and identify the top words that contribute the most positively to the following subreddits. Using the model coefficients that we have found, we are able to find the effect (no. of times) of a word occurence on the model classification.
 
+    <img src="images/model_coeff.jpeg" width="400"/>
+
   - `r/NotTheOnion`: 
       1. nation: 10.91 times 
       2. onion: 7.92 times 
@@ -98,6 +114,9 @@ After scraping posts from the two subreddits: `TheOnion` and `NotTheOnion`, we w
 - **[8. Conclusion](#7)**
 
   ##### Recommendations
+  
+    <img src="images/models.jpg" width="400"/>
+  
     `Count Vectorizer` and `Multinomial Naive Bayes` model 
     - gives the best F1-Score (minimised False Positives and False Negatives)
     - simple, easy to implement
