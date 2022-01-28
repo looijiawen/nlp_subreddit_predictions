@@ -10,7 +10,7 @@ Reddit is a social news website and forum where content is socially curated and 
 
 Fake news is a prevalent and harmful problem in our modern society, often misleading the general public on important topics such as healthcare and defense. This can lead to societal issues which is detrimental to our society. More than making people believe false things, the rise of fake news is making it harder for people to see the truth.
 
-In view of this menace, we aim to develop a model that is discerning enough to separate real news from fake news, so that government bodies can weed out the fake news, thus creating a secure, and more misinformation-resilient society in the long run. We want to create a model that will help identify real and fake news just based on the titles.
+In view of this menace, we aim to develop a model that is discerning enough to separate real news from fake news, so that government bodies can weed out the fake news, thus creating a secure, and more misinformation-resilient society in the long tern. We want to create a model that will help us to identify real and fake news based on the title of a post.
 
 Titles are a strong differentiating factor between fake and real news. In general, fake news has very little information or substance in the article content but packs a ton of information into the titles. Titles are often the determining factor on whether someone will click on or read the article.
 
@@ -112,10 +112,8 @@ A well-rounded model should take into account the other features or recognize th
 
 
 ### Possible Enhancements
-- Consider non-text posts (i.e. images, video)
-- Explore other features of a post (i.e. subtext, comments, upvotes)
+- Consider non-text posts (i.e. images, videos)
+- Explore other features of a post (i.e. subtexts, comments, upvotes)
 - Analysing post authors' posting history and patterns
 - Content-based analysis, as further exploration is needed to better understand the content of the posts, not just individual words. With that in mind, we may explore other NLP methods (e.g. [BERT](https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/), a transformer-based machine learning technique for NLP pre-training developed by Google; it considers both the left and the right side of a token’s context before making a prediction.)
  
-
-
