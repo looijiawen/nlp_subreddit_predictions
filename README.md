@@ -16,6 +16,8 @@ Titles are a strong differentiating factor between fake and real news. In genera
 
 To tackle the problem, we will foucus on text-based news from subreddit `r/TheOnion` and `r/nottheonion`, using natural language processing and machine learning models to predict whether an article is from `r/TheOnion` (fake news) or from `r/nottheonion` (real news). 
 
+<p align="center"><img src="images/onion or not.jpg" width="400"/></p>
+
 - [r/TheOnion](https://www.reddit.com/r/TheOnion/): a subreddit that lists **satire** news or **fake** stories that are ridiculous, written in such a way that makes it seem plausible.
 - [r/NotTheOnion](https://www.reddit.com/r/nottheonion/): a subreddit that lists **real** news stories so absurd that one could honestly believe they were from `TheOnion`
 
