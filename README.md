@@ -29,7 +29,7 @@ After scraping posts from the two subreddits: `TheOnion` and `NotTheOnion`, we w
 
 ### Evaluation of Success
 - Model score
-- High F1 score
+- F1 score
 
 # Methodology
 
