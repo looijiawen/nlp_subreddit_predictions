@@ -1,4 +1,4 @@
-# Fake News Subreddit Prediction using Natural Language Processing and Machine Learning Classification Model 
+# Fake News Subreddit Prediction using Natural Language Processing and Classification Predictive Modeling
 
 # Introduction
 
