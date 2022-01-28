@@ -1,4 +1,4 @@
-# Fake News Prediction using NLP and Classification
+# Fake News Subreddit Prediction using NLP and Classification
 
 # Introduction
 
